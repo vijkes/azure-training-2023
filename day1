@@ -1,0 +1,73 @@
+azure 1975
+
+60+ region
+azure meaning blue color cloud
+30+ subscriptions
+ . ms enterprise
+ . pay as you go
+ . free trial
+ . vs enterprise
+ . vs premium
+ . vs dev
+subsripton are suggested by client and solution architect
+
+left pane : blade
+
+resource grp:
+. its container
+. we can host all required svc for the project
+. vm/nw/storage/db/AI/IOT/ML
+. all resource must falldown under one rs-grp
+. all svc can be billed together
+
++ mgt easy
++ resource mgt easy
++ budget for project easy
+--------------
+24/05/2022
+
+subscription is collection of rs-grp(collection of resources)
+RDP port no. 3389
+
+disks:
+storage entity used to store personal or application data
+
+managed disk: default disk 
+              managed by ms
+			  storage account not required
+			  we can encript the disk==bit locker(ms managed key)
+			  resize disk at any time
+			  
+unmanaged disk: storage account required
+                not managed by ms
+                VHD
+
+premium SSD: prod
+standard SSD: dev/test
+standard HDD: bkp/ infrequent access		
+
+management:
+-----------
+for diagnostics
+
+. boot diagnostics: boot related logs
+. os diagnostics: os, app related issues
+
+management and monitoring merged
+			
+
+
+----------
+inside every node we have hyper-visor 
+in AWS: VM ware
+
+
+interview que:
+explain: terminal provision error
+
+the size of vm chosen might not be supported in deployment region.
+eg: 16gb ram and 60-cpu not support in a region.
+
+
+			  
+			  
